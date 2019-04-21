@@ -5,7 +5,7 @@
 ** %S flag of my_printf
 */
 
-#include "mylib.h"
+#include "my_printf.h"
 
 int s_upp_flag(char *str)
 {
