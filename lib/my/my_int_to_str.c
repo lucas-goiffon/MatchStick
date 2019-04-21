@@ -17,7 +17,7 @@ char *my_int_to_str(int nb)
         count++;
         test = test/10;
     }
-    str = malloc(sizeof(char) * (count));
+    str = malloc(sizeof(char) * (count + 1));
     str[count] = '\0';
     count--;
     while (count >= 0) {

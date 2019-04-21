@@ -10,7 +10,7 @@
 
 int my_putstr(char const *str)
 {
-    if (str == 0) {
+    if (str == NULL) {
         my_putstr("(null)");
         return (0);
     } else {

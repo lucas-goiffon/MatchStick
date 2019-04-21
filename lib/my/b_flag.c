@@ -15,5 +15,5 @@ int b_flag(char const *format, int *i, va_list ap)
 
     if (format[a] == 'b')
         count = binary_conversion(va_arg(ap, unsigned long));
-        return (count);
+    return (count);
 }
